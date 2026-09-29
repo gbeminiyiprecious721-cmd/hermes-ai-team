@@ -1,0 +1,76 @@
+{
+  "slug": "i-tested-local-llms-on-a-copilot-npu-laptop-here-s-the-truth",
+  "topic": "I Tested Local LLMs on a Copilot+ NPU Laptop \u2014 Here's the Truth About TOPS Claims",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "STORYBOARD",
+  "viral_score": 68,
+  "score_breakdown": {
+    "trend_momentum": 16,
+    "audience_demand": 13,
+    "hook_strength": 14,
+    "novelty": 5,
+    "shareability": 12,
+    "channel_fit": 8
+  },
+  "chosen_angle": "Multiple independent 2026 write-ups debunk NPU marketing, showing NPUs (~10 tok/s on 8B models) badly underperform used GPUs (~95 tok/s) because inference is memory-bandwidth bound, not compute bound. Myth-busting angle with built-in controversy and engagement potential.",
+  "hook": "[VISUAL: split screen \u2014 a laptop spec sheet reading \"45 TOPS\" next to a dusty old graphics card]",
+  "title": "",
+  "video_length_minutes": 8,
+  "qc_verdict": "",
+  "qc_attempts": 0,
+  "created_at": "2026-09-09T02:37:34.372871+00:00",
+  "updated_at": "2026-09-09T02:48:23.185175+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-09T02:37:34.374645+00:00",
+      "summary": "Top candidate scored 68/100 (IMPROVE_ANGLE)"
+    },
+    {
+      "state": "SELECTED",
+      "at": "2026-09-09T02:37:34.393716+00:00",
+      "summary": "Selected (gate=IMPROVE_ANGLE)"
+    },
+    {
+      "state": "RESEARCHING",
+      "at": "2026-09-09T02:40:30.640393+00:00",
+      "summary": "Research brief complete"
+    },
+    {
+      "state": "SCRIPTING",
+      "at": "2026-09-09T02:41:32.888100+00:00",
+      "summary": "First draft complete"
+    },
+    {
+      "state": "FACT_CHECK",
+      "at": "2026-09-09T02:43:48.206506+00:00",
+      "summary": "Fact-check risk: HIGH"
+    },
+    {
+      "state": "RETENTION_REVIEW",
+      "at": "2026-09-09T02:45:04.099842+00:00",
+      "summary": "Retention pass complete"
+    },
+    {
+      "state": "STORYBOARD",
+      "at": "2026-09-09T02:48:23.185175+00:00",
+      "summary": "Storyboard complete"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\i-tested-local-llms-on-a-copilot-npu-laptop-here-s-the-truth\\00_trend_research.md",
+    "candidate_scoring": "outputs\\i-tested-local-llms-on-a-copilot-npu-laptop-here-s-the-truth\\01_candidate_scoring.json",
+    "research_brief": "outputs\\i-tested-local-llms-on-a-copilot-npu-laptop-here-s-the-truth\\02_research_brief.md",
+    "fact_check": "outputs\\i-tested-local-llms-on-a-copilot-npu-laptop-here-s-the-truth\\03_fact_check.json",
+    "script": "outputs\\i-tested-local-llms-on-a-copilot-npu-laptop-here-s-the-truth\\04_script_final.md",
+    "retention_review": "outputs\\i-tested-local-llms-on-a-copilot-npu-laptop-here-s-the-truth\\04b_retention_review.md",
+    "storyboard": "outputs\\i-tested-local-llms-on-a-copilot-npu-laptop-here-s-the-truth\\05_storyboard.md"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics."
+  ],
+  "failure_reason": ""
+}

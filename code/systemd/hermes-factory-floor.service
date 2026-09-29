@@ -1,0 +1,12 @@
+[Unit]
+Description=Hermes Factory Floor Telegram feed
+After=network-online.target hermes-gateway.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/lib/hermes-agent/venv/bin/python /root/.hermes/scripts/factory_floor.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

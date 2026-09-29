@@ -1,0 +1,14 @@
+{
+  "name": "data-science-career-coach-hub",
+  "label": "AI Career Coach",
+  "description": "Personal Data Science lecturer, coding coach, career coach and interview simulator (Phase 1: learning/career memory, roadmap, progress, interview history)",
+  "icon": "GraduationCap",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/career-coach",
+    "position": "after:chat"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Jarvis voice (local neural speech, loopback only)
+After=network.target
+
+[Service]
+ExecStart=/root/jarvis-voice/venv/bin/python /root/jarvis-voice/server.py
+WorkingDirectory=/root/jarvis-voice
+Restart=always
+RestartSec=5
+Nice=5
+MemoryMax=1500M
+
+[Install]
+WantedBy=default.target

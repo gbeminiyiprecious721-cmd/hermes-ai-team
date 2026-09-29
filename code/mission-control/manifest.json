@@ -1,0 +1,14 @@
+{
+  "name": "product-factory-mission-control",
+  "label": "Mission Control",
+  "description": "Read-mostly operational view of the isolated Product Factory runtime",
+  "icon": "Activity",
+  "version": "1.1.0",
+  "tab": {
+    "path": "/product-factory",
+    "position": "after:chat"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "build-a-local-ai-stack-for-800-ollama-open-webui-that-replac",
+  "topic": "Build a local AI stack for ~$800 (Ollama + Open WebUI) that replaces $200/month of cloud AI",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "VOICE",
+  "viral_score": 69,
+  "score_breakdown": {
+    "trend_momentum": 13,
+    "audience_demand": 15,
+    "hook_strength": 13,
+    "novelty": 9,
+    "shareability": 9,
+    "channel_fit": 10
+  },
+  "chosen_angle": "Reddit discussions highlight users replicating expensive cloud AI subscriptions using Ollama plus Open WebUI on cheap mini PCs\u2014strong practical tutorial angle with built-in audience interest in cost savings and privacy.",
+  "hook": "[VISUAL: A screenshot/mockup of a $200+ monthly credit card statement \u2014 multiple AI subscription charges circled]",
+  "title": "",
+  "video_length_minutes": 8,
+  "qc_verdict": "",
+  "qc_attempts": 0,
+  "created_at": "2026-09-08T03:32:04.585253+00:00",
+  "updated_at": "2026-09-08T03:44:12.265938+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-08T03:32:04.586850+00:00",
+      "summary": "Top candidate scored 69/100 (IMPROVE_ANGLE)"
+    },
+    {
+      "state": "SELECTED",
+      "at": "2026-09-08T03:32:04.620460+00:00",
+      "summary": "Selected (gate=IMPROVE_ANGLE)"
+    },
+    {
+      "state": "RESEARCHING",
+      "at": "2026-09-08T03:34:28.710894+00:00",
+      "summary": "Research brief complete"
+    },
+    {
+      "state": "SCRIPTING",
+      "at": "2026-09-08T03:35:18.330851+00:00",
+      "summary": "First draft complete"
+    },
+    {
+      "state": "FACT_CHECK",
+      "at": "2026-09-08T03:37:01.756031+00:00",
+      "summary": "Fact-check risk: LOW"
+    },
+    {
+      "state": "RETENTION_REVIEW",
+      "at": "2026-09-08T03:38:29.708680+00:00",
+      "summary": "Retention pass complete"
+    },
+    {
+      "state": "STORYBOARD",
+      "at": "2026-09-08T03:41:07.570193+00:00",
+      "summary": "Storyboard complete"
+    },
+    {
+      "state": "VISUAL_PRODUCTION",
+      "at": "2026-09-08T03:43:18.678858+00:00",
+      "summary": "Visual plan complete (no assets rendered - see limitations)"
+    },
+    {
+      "state": "VOICE",
+      "at": "2026-09-08T03:44:12.265938+00:00",
+      "summary": "Narration script complete (no audio rendered - see limitations)"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\00_trend_research.md",
+    "candidate_scoring": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\01_candidate_scoring.json",
+    "research_brief": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\02_research_brief.md",
+    "fact_check": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\03_fact_check.json",
+    "script": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\04_script_final.md",
+    "retention_review": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\04b_retention_review.md",
+    "storyboard": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\05_storyboard.md",
+    "visual_plan": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\06_visual_plan.md",
+    "voice_production": "outputs\\build-a-local-ai-stack-for-800-ollama-open-webui-that-replac\\07_voice_production.md"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics.",
+    "No image/video generation tool is connected - visual plan is prompts/specs only, no assets rendered.",
+    "No TTS engine is connected - narration script prepared, no audio file generated."
+  ],
+  "failure_reason": ""
+}

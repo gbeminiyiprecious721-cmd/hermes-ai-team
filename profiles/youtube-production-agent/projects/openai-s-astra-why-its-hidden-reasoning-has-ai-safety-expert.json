@@ -1,0 +1,76 @@
+{
+  "slug": "openai-s-astra-why-its-hidden-reasoning-has-ai-safety-expert",
+  "topic": "OpenAI's Astra: Why Its Hidden Reasoning Has AI Safety Experts Worried",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "STORYBOARD",
+  "viral_score": 67,
+  "score_breakdown": {
+    "trend_momentum": 17,
+    "audience_demand": 13,
+    "hook_strength": 15,
+    "novelty": 6,
+    "shareability": 9,
+    "channel_fit": 7
+  },
+  "chosen_angle": "Newsjack window open (TechCrunch Sept 2, 2026). Multiple outlets covering recurrent depth reasoning technique. Combines timely AI news with safety concerns\u2014high audience interest.",
+  "hook": "[VISUAL: Cold open \u2014 stacked quote cards flash fast: \"extremely concerning\" / \"potentially reckless\" / \"violating one of the few redlines\"]",
+  "title": "",
+  "video_length_minutes": 8,
+  "qc_verdict": "",
+  "qc_attempts": 0,
+  "created_at": "2026-09-08T02:02:53.384112+00:00",
+  "updated_at": "2026-09-08T02:12:11.844351+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-08T02:02:53.384279+00:00",
+      "summary": "Top candidate scored 67/100 (IMPROVE_ANGLE)"
+    },
+    {
+      "state": "SELECTED",
+      "at": "2026-09-08T02:02:53.409669+00:00",
+      "summary": "Selected (gate=IMPROVE_ANGLE)"
+    },
+    {
+      "state": "RESEARCHING",
+      "at": "2026-09-08T02:04:48.504241+00:00",
+      "summary": "Research brief complete"
+    },
+    {
+      "state": "SCRIPTING",
+      "at": "2026-09-08T02:05:33.126388+00:00",
+      "summary": "First draft complete"
+    },
+    {
+      "state": "FACT_CHECK",
+      "at": "2026-09-08T02:07:44.014275+00:00",
+      "summary": "Fact-check risk: MEDIUM"
+    },
+    {
+      "state": "RETENTION_REVIEW",
+      "at": "2026-09-08T02:09:10.349304+00:00",
+      "summary": "Retention pass complete"
+    },
+    {
+      "state": "STORYBOARD",
+      "at": "2026-09-08T02:12:11.844351+00:00",
+      "summary": "Storyboard complete"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\openai-s-astra-why-its-hidden-reasoning-has-ai-safety-expert\\00_trend_research.md",
+    "candidate_scoring": "outputs\\openai-s-astra-why-its-hidden-reasoning-has-ai-safety-expert\\01_candidate_scoring.json",
+    "research_brief": "outputs\\openai-s-astra-why-its-hidden-reasoning-has-ai-safety-expert\\02_research_brief.md",
+    "fact_check": "outputs\\openai-s-astra-why-its-hidden-reasoning-has-ai-safety-expert\\03_fact_check.json",
+    "script": "outputs\\openai-s-astra-why-its-hidden-reasoning-has-ai-safety-expert\\04_script_final.md",
+    "retention_review": "outputs\\openai-s-astra-why-its-hidden-reasoning-has-ai-safety-expert\\04b_retention_review.md",
+    "storyboard": "outputs\\openai-s-astra-why-its-hidden-reasoning-has-ai-safety-expert\\05_storyboard.md"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics."
+  ],
+  "failure_reason": ""
+}

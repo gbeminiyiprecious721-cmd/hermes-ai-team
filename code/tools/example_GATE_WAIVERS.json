@@ -1,0 +1,11 @@
+{
+  "waivers": [
+    {
+      "gate": "Testing",
+      "accepted_finding_ids": ["QA-003"],
+      "reason": "QA-003: zero-width-joiner (U+200D) counted as a visible column, causing minor text-table padding misalignment in a rare case. Correct terminal display-width handling for combining/zero-width Unicode characters is a genuinely deep problem (the reason dedicated libraries like wcwidth exist) and is disproportionate scope for a small local CLI whose job is picking the cheapest supplier; it affects only cosmetic column alignment, never the price comparison itself, and severity is low. QA-001 (unhandled traceback when the output disk is full) and QA-002 (control-character escaping incomplete versus the tool's own documented behavior) are NOT waived: both are ordinary, cheaply fixable CLI robustness and are left for the Lead Engineer to actually fix.",
+      "decided_by": "Precious (owner), via the assistant on 2026-09-22 after reading QA's full findings",
+      "decided_at": "2026-09-22T12:55:00Z"
+    }
+  ]
+}

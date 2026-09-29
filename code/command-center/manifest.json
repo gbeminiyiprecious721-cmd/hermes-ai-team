@@ -1,0 +1,14 @@
+{
+  "name": "hermes-command-center",
+  "label": "Command Center",
+  "description": "Real-time operational overview of the whole Hermes installation.",
+  "icon": "Radar",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/command-center",
+    "position": "after:chat"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}

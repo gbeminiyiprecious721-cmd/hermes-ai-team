@@ -1,0 +1,77 @@
+{
+  "slug": "agents-are-the-new-apps-what-qualcomm-s-40-new-ai-devices-me",
+  "topic": "Agents Are the New Apps \u2014 What Qualcomm's 40 New AI Devices Mean for You",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "STORYBOARD",
+  "viral_score": 59,
+  "score_breakdown": {
+    "trend_momentum": 11,
+    "audience_demand": 11,
+    "hook_strength": 14,
+    "novelty": 10,
+    "shareability": 7,
+    "channel_fit": 6
+  },
+  "chosen_angle": "Qualcomm's CEO framed 2026 as 'the year of agents,' stating agents will replace traditional apps with ~40 device designs in the pipeline \u2014 a strong, quotable hook for an explainer/reaction video.",
+  "hook": "[VISUAL: Phone home screen, icons slowly greying out one by one]",
+  "title": "",
+  "video_length_minutes": 8,
+  "qc_verdict": "",
+  "qc_attempts": 0,
+  "created_at": "2026-09-08T08:33:22.611936+00:00",
+  "updated_at": "2026-09-08T08:43:07.041290+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-08T08:33:22.612381+00:00",
+      "summary": "Top candidate scored 59/100 (REJECT)"
+    },
+    {
+      "state": "SELECTED",
+      "at": "2026-09-08T08:33:22.629135+00:00",
+      "summary": "Selected (gate=REJECT, manually overridden)"
+    },
+    {
+      "state": "RESEARCHING",
+      "at": "2026-09-08T08:35:40.911087+00:00",
+      "summary": "Research brief complete"
+    },
+    {
+      "state": "SCRIPTING",
+      "at": "2026-09-08T08:36:35.124445+00:00",
+      "summary": "First draft complete"
+    },
+    {
+      "state": "FACT_CHECK",
+      "at": "2026-09-08T08:38:29.411520+00:00",
+      "summary": "Fact-check risk: MEDIUM"
+    },
+    {
+      "state": "RETENTION_REVIEW",
+      "at": "2026-09-08T08:39:48.712581+00:00",
+      "summary": "Retention pass complete"
+    },
+    {
+      "state": "STORYBOARD",
+      "at": "2026-09-08T08:43:07.041290+00:00",
+      "summary": "Storyboard complete"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\agents-are-the-new-apps-what-qualcomm-s-40-new-ai-devices-me\\00_trend_research.md",
+    "candidate_scoring": "outputs\\agents-are-the-new-apps-what-qualcomm-s-40-new-ai-devices-me\\01_candidate_scoring.json",
+    "research_brief": "outputs\\agents-are-the-new-apps-what-qualcomm-s-40-new-ai-devices-me\\02_research_brief.md",
+    "fact_check": "outputs\\agents-are-the-new-apps-what-qualcomm-s-40-new-ai-devices-me\\03_fact_check.json",
+    "script": "outputs\\agents-are-the-new-apps-what-qualcomm-s-40-new-ai-devices-me\\04_script_final.md",
+    "retention_review": "outputs\\agents-are-the-new-apps-what-qualcomm-s-40-new-ai-devices-me\\04b_retention_review.md",
+    "storyboard": "outputs\\agents-are-the-new-apps-what-qualcomm-s-40-new-ai-devices-me\\05_storyboard.md"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics.",
+    "Selection gate was manually overridden: best candidate scored 59/100, below the reject threshold (65). Proceeding into production was a human decision, not the gate's recommendation."
+  ],
+  "failure_reason": ""
+}

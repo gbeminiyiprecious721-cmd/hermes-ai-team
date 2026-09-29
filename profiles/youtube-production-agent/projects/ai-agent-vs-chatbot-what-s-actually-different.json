@@ -1,0 +1,97 @@
+{
+  "slug": "ai-agent-vs-chatbot-what-s-actually-different",
+  "topic": "AI Agent vs Chatbot: What's Actually Different?",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "ASSEMBLY",
+  "viral_score": 69,
+  "score_breakdown": {
+    "trend_momentum": 14,
+    "audience_demand": 17,
+    "hook_strength": 12,
+    "novelty": 8,
+    "shareability": 9,
+    "channel_fit": 9
+  },
+  "chosen_angle": "Search results consistently show this exact question as a top beginner query with recurring confusion about core building blocks (planning, memory, tools, orchestration). Clear, high-search-intent explainer opportunity addressing demonstrable beginner demand.",
+  "hook": "Right now, somewhere, a company is about to spend six figures on an \"AI agent.\" By the end of this video, you'll be able to tell them it's just a chatbot wearing a trench coat.",
+  "title": "",
+  "video_length_minutes": 8,
+  "qc_verdict": "",
+  "qc_attempts": 0,
+  "created_at": "2026-09-08T20:41:30.645827+00:00",
+  "updated_at": "2026-09-08T21:01:03.459919+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-08T20:41:30.648904+00:00",
+      "summary": "Top candidate scored 69/100 (IMPROVE_ANGLE)"
+    },
+    {
+      "state": "SELECTED",
+      "at": "2026-09-08T20:41:30.720146+00:00",
+      "summary": "Selected (gate=IMPROVE_ANGLE)"
+    },
+    {
+      "state": "RESEARCHING",
+      "at": "2026-09-08T20:43:22.132252+00:00",
+      "summary": "Research brief complete"
+    },
+    {
+      "state": "SCRIPTING",
+      "at": "2026-09-08T20:44:50.218688+00:00",
+      "summary": "First draft complete"
+    },
+    {
+      "state": "FACT_CHECK",
+      "at": "2026-09-08T20:47:35.515240+00:00",
+      "summary": "Fact-check risk: MEDIUM"
+    },
+    {
+      "state": "RETENTION_REVIEW",
+      "at": "2026-09-08T20:48:55.677757+00:00",
+      "summary": "Retention pass complete"
+    },
+    {
+      "state": "STORYBOARD",
+      "at": "2026-09-08T20:51:15.077932+00:00",
+      "summary": "Storyboard complete"
+    },
+    {
+      "state": "VISUAL_PRODUCTION",
+      "at": "2026-09-08T20:54:51.390994+00:00",
+      "summary": "Visual plan complete (no assets rendered - see limitations)"
+    },
+    {
+      "state": "VOICE",
+      "at": "2026-09-08T20:55:39.002588+00:00",
+      "summary": "Narration script complete (no audio rendered - see limitations)"
+    },
+    {
+      "state": "ASSEMBLY",
+      "at": "2026-09-08T21:01:03.459919+00:00",
+      "summary": "Assembly plan complete (no video rendered - see limitations)"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\00_trend_research.md",
+    "candidate_scoring": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\01_candidate_scoring.json",
+    "research_brief": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\02_research_brief.md",
+    "fact_check": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\03_fact_check.json",
+    "script": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\04_script_final.md",
+    "retention_review": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\04b_retention_review.md",
+    "storyboard": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\05_storyboard.md",
+    "visual_plan": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\06_visual_plan.md",
+    "voice_production": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\07_voice_production.md",
+    "assembly_plan": "outputs\\ai-agent-vs-chatbot-what-s-actually-different\\08_assembly_plan.md"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics.",
+    "No image/video generation tool is connected - visual plan is prompts/specs only, no assets rendered.",
+    "No TTS engine is connected - narration script prepared, no audio file generated.",
+    "No video renderer is connected - assembly plan produced, no video file rendered."
+  ],
+  "failure_reason": ""
+}

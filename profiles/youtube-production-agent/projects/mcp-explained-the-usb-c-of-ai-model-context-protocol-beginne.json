@@ -1,0 +1,140 @@
+{
+  "slug": "mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne",
+  "topic": "MCP Explained: The USB-C of AI (Model Context Protocol Beginner Tutorial)",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "AWAITING_HUMAN_APPROVAL",
+  "viral_score": 57,
+  "score_breakdown": {
+    "trend_momentum": 14,
+    "audience_demand": 13,
+    "hook_strength": 10,
+    "novelty": 4,
+    "shareability": 7,
+    "channel_fit": 9
+  },
+  "chosen_angle": "Multiple 2026 sources independently describe MCP as 'the de facto standard' for connecting LLMs to tools/data, with steady stream of guides and dedicated YouTube courses, signaling strong beginner search demand.",
+  "hook": "**MCP EXPLAINED: THE USB-C OF AI**",
+  "title": "MCP Explained: The USB-C of AI (Beginner Tutorial)",
+  "video_length_minutes": 8,
+  "qc_verdict": "APPROVE",
+  "qc_attempts": 8,
+  "created_at": "2026-09-08T08:49:51.035475+00:00",
+  "updated_at": "2026-09-09T07:10:12.442886+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-08T08:49:51.037009+00:00",
+      "summary": "Top candidate scored 57/100 (REJECT)"
+    },
+    {
+      "state": "SELECTED",
+      "at": "2026-09-08T08:49:51.059542+00:00",
+      "summary": "Selected (gate=REJECT, manually overridden)"
+    },
+    {
+      "state": "RESEARCHING",
+      "at": "2026-09-08T08:51:16.360803+00:00",
+      "summary": "Research brief complete"
+    },
+    {
+      "state": "SCRIPTING",
+      "at": "2026-09-08T08:52:30.033304+00:00",
+      "summary": "First draft complete"
+    },
+    {
+      "state": "FACT_CHECK",
+      "at": "2026-09-08T08:54:49.941640+00:00",
+      "summary": "Fact-check risk: MEDIUM"
+    },
+    {
+      "state": "RETENTION_REVIEW",
+      "at": "2026-09-08T08:55:59.510204+00:00",
+      "summary": "Retention pass complete"
+    },
+    {
+      "state": "STORYBOARD",
+      "at": "2026-09-08T08:57:49.845485+00:00",
+      "summary": "Storyboard complete"
+    },
+    {
+      "state": "VISUAL_PRODUCTION",
+      "at": "2026-09-08T09:03:13.860784+00:00",
+      "summary": "Visual plan complete (no assets rendered - see limitations)"
+    },
+    {
+      "state": "VOICE",
+      "at": "2026-09-08T09:04:04.557014+00:00",
+      "summary": "Narration script complete (no audio rendered - see limitations)"
+    },
+    {
+      "state": "ASSEMBLY",
+      "at": "2026-09-08T09:08:57.045046+00:00",
+      "summary": "Assembly plan complete (no video rendered - see limitations)"
+    },
+    {
+      "state": "QUALITY_REVIEW",
+      "at": "2026-09-08T09:10:22.886387+00:00",
+      "summary": "Packaging complete, entering quality control"
+    },
+    {
+      "state": "QUALITY_REVIEW",
+      "at": "2026-09-08T18:30:07.979583+00:00",
+      "summary": "Still REVISE after 2 retries - stopping for human review"
+    },
+    {
+      "state": "QUALITY_REVIEW",
+      "at": "2026-09-09T02:36:29.711023+00:00",
+      "summary": "Still REVISE after manual corrections - needs further human editing"
+    },
+    {
+      "state": "QUALITY_REVIEW",
+      "at": "2026-09-09T02:40:48.833252+00:00",
+      "summary": "Still REVISE after manual corrections - needs further human editing"
+    },
+    {
+      "state": "QUALITY_REVIEW",
+      "at": "2026-09-09T02:45:35.367026+00:00",
+      "summary": "Still REVISE after manual corrections - needs further human editing"
+    },
+    {
+      "state": "QUALITY_REVIEW",
+      "at": "2026-09-09T02:48:36.851956+00:00",
+      "summary": "Still REVISE after manual corrections - needs further human editing"
+    },
+    {
+      "state": "AWAITING_HUMAN_APPROVAL",
+      "at": "2026-09-09T07:10:12.442886+00:00",
+      "summary": "Package approved by QC after manual corrections - awaiting your explicit approval before any publishing"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\00_trend_research.md",
+    "candidate_scoring": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\01_candidate_scoring.json",
+    "research_brief": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\02_research_brief.md",
+    "fact_check": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\03_fact_check.json",
+    "script": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\04_script_final.md",
+    "retention_review": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\04b_retention_review.md",
+    "storyboard": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\05_storyboard.md",
+    "visual_plan": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\06_visual_plan.md",
+    "voice_production": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\07_voice_production.md",
+    "assembly_plan": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\08_assembly_plan.md",
+    "titles": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\09_titles.json",
+    "thumbnails": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\10_thumbnails.md",
+    "packaging": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\11_packaging.md",
+    "quality_control": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\12c_quality_control_final.json",
+    "content_handoff": "outputs\\mcp-explained-the-usb-c-of-ai-model-context-protocol-beginne\\13_content_handoff.json"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics.",
+    "Selection gate was manually overridden: best candidate scored 57/100, below the reject threshold (65). Proceeding into production was a human decision, not the gate's recommendation.",
+    "No image/video generation tool is connected - visual plan is prompts/specs only, no assets rendered.",
+    "No TTS engine is connected - narration script prepared, no audio file generated.",
+    "No video renderer is connected - assembly plan produced, no video file rendered.",
+    "No image generation tool is connected - thumbnail concepts are production-ready specs, no image files created.",
+    "QC retry limit (2) reached while still flagged REVISE - needs human editing."
+  ],
+  "failure_reason": ""
+}

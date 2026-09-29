@@ -1,0 +1,120 @@
+# Central Routing Policy for Hermes Product Factory
+# Defines primary and fallback workers for each specialist role.
+# Also defines which workers are suitable for which capabilities.
+
+version: 2.0
+profile: product-factory
+availability:
+  cache_ttl_seconds: 300
+  quota_cooldown_seconds: 900
+  overload_max_retries: 2
+  overload_backoff_seconds: [1, 3]
+  overload_cooldown_seconds: 300
+  probe_mode: non_consuming
+safety:
+  production_actions: require_explicit_human_approval
+  obsidian_capture: staged_only
+  mutate_global_config: false
+workers:
+  nemotron:
+    provider: openrouter
+    model: nvidia/nemotron-3-super-120b-a12b:free
+    cost: free_tier
+    strengths: [routine orchestration, text generation, summarization, light reasoning]
+  nous:
+    provider: nous
+    model: upstage/solar-pro4:free
+    cost: free_tier
+    strengths: [delegation, deeper reasoning, complex problem solving]
+  gemini:
+    provider: gemini
+    model: gemini-3.8-flash
+    cost: free_tier (subject to Google quota)
+    strengths: [long-context research, large document analysis, vision (if enabled)]
+  claude_code:
+    type: cli
+    path: /usr/local/bin/claude
+    auth: "Claude subscription sign-in (command: claude auth login)"
+    cost: subscription (Claude Pro)
+    strengths: [software implementation, debugging, refactoring, unit testing]
+    quota_limited: true
+  codex:
+    type: cli
+    path: /usr/local/bin/codex
+    auth: "ChatGPT sign-in (command: codex login --device-auth)"
+    cost: subscription (ChatGPT Plus/Pro)
+    strengths: [independent QA, code review, engineering fallback]
+    quota_limited: true
+
+routing:
+  hermes_director:
+    primary: nemotron
+    fallback: nous
+  product_agent:
+    primary: nemotron
+    fallback: nous
+  research_agent:
+    primary: gemini
+    fallback: nemotron
+    second_fallback: nous
+  architecture_agent:
+    primary: nous
+    fallback: nemotron
+  lead_engineer:
+    primary: claude_code
+    fallback: codex
+    second_fallback: nemotron  # for small non-critical tasks only
+  data_ml_engineer:
+    primary_orchestration: nemotron
+    reasoning_fallback: nous
+    implementation_worker: claude_code
+    # Optional specialists are ONLY included when ML productionization keywords are present.
+    # Keywords that trigger optional routing: deploy, production, serve, api, endpoint, web app, dashboard,
+    # integrate, application, app, software, ui, ux, frontend, security, secure, encryption,
+    # authentication, authorization, sensitive data, privacy.
+    # Without those keywords, ONLY the required specialists run: Product Agent, Data/ML Engineer,
+    # ML/AI Evaluation Agent, QA Agent. This prevents over-selection for simple ML tasks.
+    implementation_fallback: codex
+    review_worker: codex
+    review_fallback: nemotron
+  qa_agent:
+    primary: codex
+    fallback: nemotron
+  security_agent:
+    primary: claude_code
+    fallback: codex
+    second_fallback: nemotron  # degraded: free-model review only if both subscriptions are unavailable
+  ui_ux_agent:
+    primary: nemotron  # with browser/vision tools as needed
+    fallback: nous
+  ml_ai_evaluation_agent:
+    primary_orchestration: nemotron
+    reasoning_fallback: nous
+    evaluation_worker: claude_code
+    evaluation_fallback: codex
+    # Only invoked when ML/AI system exists to evaluate.
+    implementation_worker: claude_code  # where appropriate
+    implementation_fallback: codex
+  release_devops_agent:
+    primary: nemotron
+    fallback: nous
+
+capabilities:
+  routine_orchestration: [nemotron, nous]
+  research: [gemini, nemotron, nous]
+  architecture: [nous, nemotron]
+  software_implementation: [claude_code, codex, nemotron, nous]
+  data_ml_coding: [claude_code, codex, nemotron, nous]
+  independent_qa: [codex, nemotron]
+  security_review: [claude_code, codex, nemotron, nous]
+  ui_ux_review: [nemotron, nous]
+  long_context: [gemini, nemotron]
+  tool_calling: [nemotron, nous, gemini, claude_code, codex]
+  terminal_execution: [nemotron, nous, claude_code, codex, gemini]
+
+fallback_rules:
+  - Retry retryable upstream overloads at most twice with bounded backoff, then cache the worker as temporarily unavailable for the run and use the next approved fallback.
+  - If primary worker is rate-limited, quota-limited, overloaded, or unavailable, use fallback without restarting completed stages.
+  - If both primary and fallback are rate-limited, mark as BLOCKED and await human approval or quota reset.
+  - For lead_engineer, if claude_code is quota-limited, use codex fallback; if codex also limited, consider nemotron/nous for very small tasks only and mark quality as DEGRADED.
+  - For qa_agent, if codex is unavailable, fallback to nemotron but mark independent QA as DEGRADED.

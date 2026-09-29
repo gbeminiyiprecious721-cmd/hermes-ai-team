@@ -1,0 +1,91 @@
+{
+  "slug": "n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-",
+  "topic": "n8n + MCP: Build an AI Agent That Controls Your Whole Workflow (No Code)",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "VOICE",
+  "viral_score": 59,
+  "score_breakdown": {
+    "trend_momentum": 14,
+    "audience_demand": 14,
+    "hook_strength": 11,
+    "novelty": 3,
+    "shareability": 8,
+    "channel_fit": 9
+  },
+  "chosen_angle": "n8n added native MCP support in 2026, enabling workflows to act as callable tools for AI models\u2014a concrete, teachable tutorial hook with verified sources.",
+  "hook": "# n8n + MCP: Build an AI Agent That Controls Your Whole Workflow",
+  "title": "",
+  "video_length_minutes": 8,
+  "qc_verdict": "",
+  "qc_attempts": 0,
+  "created_at": "2026-09-08T13:46:18.858036+00:00",
+  "updated_at": "2026-09-08T13:59:55.244310+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-08T13:46:18.859005+00:00",
+      "summary": "Top candidate scored 59/100 (REJECT)"
+    },
+    {
+      "state": "SELECTED",
+      "at": "2026-09-08T13:46:18.894039+00:00",
+      "summary": "Selected (gate=REJECT, manually overridden)"
+    },
+    {
+      "state": "RESEARCHING",
+      "at": "2026-09-08T13:49:50.179980+00:00",
+      "summary": "Research brief complete"
+    },
+    {
+      "state": "SCRIPTING",
+      "at": "2026-09-08T13:50:52.448093+00:00",
+      "summary": "First draft complete"
+    },
+    {
+      "state": "FACT_CHECK",
+      "at": "2026-09-08T13:53:03.445265+00:00",
+      "summary": "Fact-check risk: MEDIUM"
+    },
+    {
+      "state": "RETENTION_REVIEW",
+      "at": "2026-09-08T13:54:33.884937+00:00",
+      "summary": "Retention pass complete"
+    },
+    {
+      "state": "STORYBOARD",
+      "at": "2026-09-08T13:57:15.576617+00:00",
+      "summary": "Storyboard complete"
+    },
+    {
+      "state": "VISUAL_PRODUCTION",
+      "at": "2026-09-08T13:58:56.851630+00:00",
+      "summary": "Visual plan complete (no assets rendered - see limitations)"
+    },
+    {
+      "state": "VOICE",
+      "at": "2026-09-08T13:59:55.244310+00:00",
+      "summary": "Narration script complete (no audio rendered - see limitations)"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\00_trend_research.md",
+    "candidate_scoring": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\01_candidate_scoring.json",
+    "research_brief": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\02_research_brief.md",
+    "fact_check": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\03_fact_check.json",
+    "script": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\04_script_final.md",
+    "retention_review": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\04b_retention_review.md",
+    "storyboard": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\05_storyboard.md",
+    "visual_plan": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\06_visual_plan.md",
+    "voice_production": "outputs\\n8n-mcp-build-an-ai-agent-that-controls-your-whole-workflow-\\07_voice_production.md"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics.",
+    "Selection gate was manually overridden: best candidate scored 59/100, below the reject threshold (65). Proceeding into production was a human decision, not the gate's recommendation.",
+    "No image/video generation tool is connected - visual plan is prompts/specs only, no assets rendered.",
+    "No TTS engine is connected - narration script prepared, no audio file generated."
+  ],
+  "failure_reason": ""
+}

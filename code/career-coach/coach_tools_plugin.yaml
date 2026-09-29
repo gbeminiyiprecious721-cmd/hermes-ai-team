@@ -1,0 +1,18 @@
+name: coach-tools
+version: 1.0.0
+description: "Data Science Career Coach memory tools — 12 tools letting the coach record lessons, topic mastery, mock interviews, projects, jobs, goals, career/skill updates, and live lesson-stage signals to coach.db, and read back today's plan, progress, and interview analytics. Profile-local to data-science-career-coach."
+author: Precious
+kind: backend
+provides_tools:
+  - coach_record_session
+  - coach_upsert_topic
+  - coach_record_interview
+  - coach_create_project
+  - coach_create_job
+  - coach_create_goal
+  - coach_update_career
+  - coach_set_skill
+  - coach_get_today
+  - coach_get_progress
+  - coach_get_interview_analytics
+  - coach_set_lesson_stage

@@ -1,0 +1,7 @@
+[Unit]
+Description=Hermes VPS backup (custom, data, secrets archives in /root/backups)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/lib/hermes-agent/venv/bin/python /root/.hermes/scripts/hermes_backup.py
+Nice=10

@@ -1,0 +1,46 @@
+{
+  "slug": "best-ai-agents-for-data-analysis-in-2026-compared-julius-ai-",
+  "topic": "Best AI Agents for Data Analysis in 2026, Compared (Julius AI vs ChatGPT vs Claude vs Deepnote)",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "REJECTED",
+  "viral_score": 63,
+  "score_breakdown": {
+    "trend_momentum": 13,
+    "audience_demand": 14,
+    "hook_strength": 12,
+    "novelty": 7,
+    "shareability": 8,
+    "channel_fit": 9
+  },
+  "chosen_angle": "Multiple 2026 roundups (KDnuggets, Tellius, ticnote) show rising comparison content around NL-to-SQL and autonomous data-investigation agents; most existing coverage is text listicles, not video walkthroughs\u2014a gap for beginner/intermediate tutorials.",
+  "hook": "",
+  "title": "",
+  "video_length_minutes": 8,
+  "qc_verdict": "",
+  "qc_attempts": 0,
+  "created_at": "2026-09-08T03:59:09.926213+00:00",
+  "updated_at": "2026-09-08T03:59:09.961084+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-08T03:59:09.929971+00:00",
+      "summary": "Top candidate scored 63/100 (REJECT)"
+    },
+    {
+      "state": "REJECTED",
+      "at": "2026-09-08T03:59:09.961084+00:00",
+      "summary": "Best candidate scored 63, below reject threshold"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\best-ai-agents-for-data-analysis-in-2026-compared-julius-ai-\\00_trend_research.md",
+    "candidate_scoring": "outputs\\best-ai-agents-for-data-analysis-in-2026-compared-julius-ai-\\01_candidate_scoring.json"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics."
+  ],
+  "failure_reason": ""
+}

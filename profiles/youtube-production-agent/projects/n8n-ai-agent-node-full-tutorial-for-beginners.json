@@ -1,0 +1,46 @@
+{
+  "slug": "n8n-ai-agent-node-full-tutorial-for-beginners",
+  "topic": "n8n AI Agent Node: Full Tutorial for Beginners",
+  "niche": "AI, AI agents, Data science, Machine learning, Automation, AI tools, Practical tutorials, Emerging technology",
+  "audience": "people curious about practical AI and data tools, beginner to intermediate",
+  "state": "REJECTED",
+  "viral_score": 60,
+  "score_breakdown": {
+    "trend_momentum": 15,
+    "audience_demand": 17,
+    "hook_strength": 8,
+    "novelty": 5,
+    "shareability": 6,
+    "channel_fit": 9
+  },
+  "chosen_angle": "n8n's AI Agent node is now the platform's single most-used building block with strong current search/build interest, though differentiation through a specific real workflow is needed.",
+  "hook": "",
+  "title": "",
+  "video_length_minutes": 8,
+  "qc_verdict": "",
+  "qc_attempts": 0,
+  "created_at": "2026-09-08T08:26:59.875575+00:00",
+  "updated_at": "2026-09-08T08:26:59.920676+00:00",
+  "stage_history": [
+    {
+      "state": "SCORED",
+      "at": "2026-09-08T08:26:59.877411+00:00",
+      "summary": "Top candidate scored 60/100 (REJECT)"
+    },
+    {
+      "state": "REJECTED",
+      "at": "2026-09-08T08:26:59.920676+00:00",
+      "summary": "Best candidate scored 60, below reject threshold"
+    }
+  ],
+  "artifacts": {
+    "trend_research": "outputs\\n8n-ai-agent-node-full-tutorial-for-beginners\\00_trend_research.md",
+    "candidate_scoring": "outputs\\n8n-ai-agent-node-full-tutorial-for-beginners\\01_candidate_scoring.json"
+  },
+  "lessons_learned": [],
+  "performance": {},
+  "limitations": [
+    "Trend research uses Claude's WebSearch tool, not a formal Google Trends/YouTube Data API - real and current, but not authoritative platform analytics."
+  ],
+  "failure_reason": ""
+}
